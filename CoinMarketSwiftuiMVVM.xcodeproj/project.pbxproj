@@ -14,6 +14,8 @@
 		AB44C773299EB88A0001540F /* CoinMarketSwiftuiMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C772299EB88A0001540F /* CoinMarketSwiftuiMVVMTests.swift */; };
 		AB44C77D299EB88A0001540F /* CoinMarketSwiftuiMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C77C299EB88A0001540F /* CoinMarketSwiftuiMVVMUITests.swift */; };
 		AB44C77F299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C77E299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift */; };
+		AB44C78D299EBA690001540F /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C78C299EBA690001540F /* StateMachine.swift */; };
+		AB44C78F299EBAA10001540F /* StateMachineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C78E299EBAA10001540F /* StateMachineProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		AB44C778299EB88A0001540F /* CoinMarketSwiftuiMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinMarketSwiftuiMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB44C77C299EB88A0001540F /* CoinMarketSwiftuiMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketSwiftuiMVVMUITests.swift; sourceTree = "<group>"; };
 		AB44C77E299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketSwiftuiMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB44C78C299EBA690001540F /* StateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
+		AB44C78E299EBAA10001540F /* StateMachineProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachineProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		AB44C760299EB8880001540F /* CoinMarketSwiftuiMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				AB44C78B299EBA570001540F /* StateMachine */,
 				AB44C761299EB8880001540F /* CoinMarketSwiftuiMVVMApp.swift */,
 				AB44C763299EB8880001540F /* ContentView.swift */,
 				AB44C765299EB88A0001540F /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				AB44C77E299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift */,
 			);
 			path = CoinMarketSwiftuiMVVMUITests;
+			sourceTree = "<group>";
+		};
+		AB44C78B299EBA570001540F /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C78E299EBAA10001540F /* StateMachineProtocol.swift */,
+				AB44C78C299EBA690001540F /* StateMachine.swift */,
+			);
+			path = StateMachine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB44C764299EB8880001540F /* ContentView.swift in Sources */,
+				AB44C78F299EBAA10001540F /* StateMachineProtocol.swift in Sources */,
+				AB44C78D299EBA690001540F /* StateMachine.swift in Sources */,
 				AB44C762299EB8880001540F /* CoinMarketSwiftuiMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
