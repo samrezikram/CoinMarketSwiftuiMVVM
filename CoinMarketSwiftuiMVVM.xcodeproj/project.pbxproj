@@ -16,6 +16,22 @@
 		AB44C77F299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C77E299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift */; };
 		AB44C78D299EBA690001540F /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C78C299EBA690001540F /* StateMachine.swift */; };
 		AB44C78F299EBAA10001540F /* StateMachineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C78E299EBAA10001540F /* StateMachineProtocol.swift */; };
+		AB44C799299EC76F0001540F /* CoinMarketEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C798299EC76F0001540F /* CoinMarketEvent.swift */; };
+		AB44C7A2299EC7CE0001540F /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C79D299EC7CE0001540F /* TransactionType.swift */; };
+		AB44C7A3299EC7CE0001540F /* TransactionListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C79E299EC7CE0001540F /* TransactionListItem.swift */; };
+		AB44C7A4299EC7CE0001540F /* TransactionHistory.model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7A1299EC7CE0001540F /* TransactionHistory.model.swift */; };
+		AB44C7A6299EC8120001540F /* CoinMarketListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7A5299EC8120001540F /* CoinMarketListViewModel.swift */; };
+		AB44C7A9299EC9120001540F /* String +Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7A8299EC9120001540F /* String +Extensions.swift */; };
+		AB44C7B0299EC91B0001540F /* CoinMarketDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7AB299EC91B0001540F /* CoinMarketDataSource.swift */; };
+		AB44C7B1299EC91B0001540F /* CoinMarketServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7AC299EC91B0001540F /* CoinMarketServiceImpl.swift */; };
+		AB44C7B2299EC91B0001540F /* CoinMarketRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7AE299EC91B0001540F /* CoinMarketRepositoryImpl.swift */; };
+		AB44C7B3299EC91B0001540F /* CoinMarketRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7AF299EC91B0001540F /* CoinMarketRepository.swift */; };
+		AB44C7B5299EC94E0001540F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7B4299EC94E0001540F /* Constants.swift */; };
+		AB44C7B7299F2A010001540F /* CryptoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7B6299F2A010001540F /* CryptoModels.swift */; };
+		AB44C7BA299F2CE20001540F /* CoinMarketUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7B9299F2CE20001540F /* CoinMarketUseCase.swift */; };
+		AB44C7BC299F2F570001540F /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7BB299F2F570001540F /* Double + Extension.swift */; };
+		AB44C7BE299F69C40001540F /* CoinsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7BD299F69C40001540F /* CoinsListView.swift */; };
+		AB44C7C1299F69E90001540F /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44C7C0299F69E90001540F /* Spinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +64,22 @@
 		AB44C77E299EB88A0001540F /* CoinMarketSwiftuiMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketSwiftuiMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AB44C78C299EBA690001540F /* StateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
 		AB44C78E299EBAA10001540F /* StateMachineProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachineProtocol.swift; sourceTree = "<group>"; };
+		AB44C798299EC76F0001540F /* CoinMarketEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketEvent.swift; sourceTree = "<group>"; };
+		AB44C79D299EC7CE0001540F /* TransactionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		AB44C79E299EC7CE0001540F /* TransactionListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListItem.swift; sourceTree = "<group>"; };
+		AB44C7A1299EC7CE0001540F /* TransactionHistory.model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistory.model.swift; sourceTree = "<group>"; };
+		AB44C7A5299EC8120001540F /* CoinMarketListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketListViewModel.swift; sourceTree = "<group>"; };
+		AB44C7A8299EC9120001540F /* String +Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String +Extensions.swift"; sourceTree = "<group>"; };
+		AB44C7AB299EC91B0001540F /* CoinMarketDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketDataSource.swift; sourceTree = "<group>"; };
+		AB44C7AC299EC91B0001540F /* CoinMarketServiceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketServiceImpl.swift; sourceTree = "<group>"; };
+		AB44C7AE299EC91B0001540F /* CoinMarketRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketRepositoryImpl.swift; sourceTree = "<group>"; };
+		AB44C7AF299EC91B0001540F /* CoinMarketRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketRepository.swift; sourceTree = "<group>"; };
+		AB44C7B4299EC94E0001540F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB44C7B6299F2A010001540F /* CryptoModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoModels.swift; sourceTree = "<group>"; };
+		AB44C7B9299F2CE20001540F /* CoinMarketUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinMarketUseCase.swift; sourceTree = "<group>"; };
+		AB44C7BB299F2F570001540F /* Double + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
+		AB44C7BD299F69C40001540F /* CoinsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinsListView.swift; sourceTree = "<group>"; };
+		AB44C7C0299F69E90001540F /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				AB44C760299EB8880001540F /* CoinMarketSwiftuiMVVM */,
+				AB44C7B4299EC94E0001540F /* Constants.swift */,
 				AB44C771299EB88A0001540F /* CoinMarketSwiftuiMVVMTests */,
 				AB44C77B299EB88A0001540F /* CoinMarketSwiftuiMVVMUITests */,
 				AB44C75F299EB8880001540F /* Products */,
@@ -98,6 +131,14 @@
 		AB44C760299EB8880001540F /* CoinMarketSwiftuiMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				AB44C7BF299F69E90001540F /* Controls */,
+				AB44C7B8299F2CE20001540F /* UseCases */,
+				AB44C7AA299EC91B0001540F /* NetworkService */,
+				AB44C7AD299EC91B0001540F /* Repository */,
+				AB44C7A7299EC9120001540F /* Extensions */,
+				AB44C79A299EC7BB0001540F /* CoinMarketList */,
+				AB44C79B299EC7CE0001540F /* Models */,
+				AB44C797299EC72B0001540F /* EventMachine */,
 				AB44C78B299EBA570001540F /* StateMachine */,
 				AB44C761299EB8880001540F /* CoinMarketSwiftuiMVVMApp.swift */,
 				AB44C763299EB8880001540F /* ContentView.swift */,
@@ -139,6 +180,101 @@
 				AB44C78C299EBA690001540F /* StateMachine.swift */,
 			);
 			path = StateMachine;
+			sourceTree = "<group>";
+		};
+		AB44C797299EC72B0001540F /* EventMachine */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C798299EC76F0001540F /* CoinMarketEvent.swift */,
+			);
+			path = EventMachine;
+			sourceTree = "<group>";
+		};
+		AB44C79A299EC7BB0001540F /* CoinMarketList */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7BD299F69C40001540F /* CoinsListView.swift */,
+				AB44C7A5299EC8120001540F /* CoinMarketListViewModel.swift */,
+			);
+			path = CoinMarketList;
+			sourceTree = "<group>";
+		};
+		AB44C79B299EC7CE0001540F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C79C299EC7CE0001540F /* App */,
+				AB44C79F299EC7CE0001540F /* Data */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB44C79C299EC7CE0001540F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C79D299EC7CE0001540F /* TransactionType.swift */,
+				AB44C79E299EC7CE0001540F /* TransactionListItem.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AB44C79F299EC7CE0001540F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7A0299EC7CE0001540F /* Http */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AB44C7A0299EC7CE0001540F /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7B6299F2A010001540F /* CryptoModels.swift */,
+				AB44C7A1299EC7CE0001540F /* TransactionHistory.model.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		AB44C7A7299EC9120001540F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7BB299F2F570001540F /* Double + Extension.swift */,
+				AB44C7A8299EC9120001540F /* String +Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB44C7AA299EC91B0001540F /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7AB299EC91B0001540F /* CoinMarketDataSource.swift */,
+				AB44C7AC299EC91B0001540F /* CoinMarketServiceImpl.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		AB44C7AD299EC91B0001540F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7AE299EC91B0001540F /* CoinMarketRepositoryImpl.swift */,
+				AB44C7AF299EC91B0001540F /* CoinMarketRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AB44C7B8299F2CE20001540F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7B9299F2CE20001540F /* CoinMarketUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		AB44C7BF299F69E90001540F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				AB44C7C0299F69E90001540F /* Spinner.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +407,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB44C7A2299EC7CE0001540F /* TransactionType.swift in Sources */,
+				AB44C7B5299EC94E0001540F /* Constants.swift in Sources */,
+				AB44C7A9299EC9120001540F /* String +Extensions.swift in Sources */,
 				AB44C764299EB8880001540F /* ContentView.swift in Sources */,
+				AB44C7B1299EC91B0001540F /* CoinMarketServiceImpl.swift in Sources */,
+				AB44C7A3299EC7CE0001540F /* TransactionListItem.swift in Sources */,
+				AB44C7A6299EC8120001540F /* CoinMarketListViewModel.swift in Sources */,
+				AB44C7BE299F69C40001540F /* CoinsListView.swift in Sources */,
+				AB44C7A4299EC7CE0001540F /* TransactionHistory.model.swift in Sources */,
 				AB44C78F299EBAA10001540F /* StateMachineProtocol.swift in Sources */,
+				AB44C7BC299F2F570001540F /* Double + Extension.swift in Sources */,
 				AB44C78D299EBA690001540F /* StateMachine.swift in Sources */,
+				AB44C7B0299EC91B0001540F /* CoinMarketDataSource.swift in Sources */,
 				AB44C762299EB8880001540F /* CoinMarketSwiftuiMVVMApp.swift in Sources */,
+				AB44C7B2299EC91B0001540F /* CoinMarketRepositoryImpl.swift in Sources */,
+				AB44C7B3299EC91B0001540F /* CoinMarketRepository.swift in Sources */,
+				AB44C7B7299F2A010001540F /* CryptoModels.swift in Sources */,
+				AB44C7BA299F2CE20001540F /* CoinMarketUseCase.swift in Sources */,
+				AB44C799299EC76F0001540F /* CoinMarketEvent.swift in Sources */,
+				AB44C7C1299F69E90001540F /* Spinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
